@@ -3,7 +3,7 @@ Simple Backup
 
 Motivation
 ----------
-These shell scripts extend rsync as a backup tool and add simple features like automatic rollovers.  Rsync combined with its --link-dest= option is a powerful way to backup remote linux systems.  The --link-dest= option lets us specify a previous backup to hard link against.  That is, if we find the same file, unchanged, in the current backup, just make a hardlink to the previous backup.  Google for the difference between hard and soft links in linux for any clarificaiton here.
+These shell scripts extend rsync as a backup tool and add simple features like automatic rollovers.  `rsync` combined with its `--link-dest=` option is a powerful way to backup remote linux systems.  The `--link-dest=` option lets us specify a previous backup to hard link against.  That is, if we find the same file, unchanged, in the current backup, just make a hardlink to the previous backup.  Google for the difference between hard and soft links in linux for any clarificaiton here.
 
 Usage
 -----
