@@ -1,0 +1,12 @@
+# Copy this file and rename it to end with .config
+# any .config files in this directory will be processed by the backup_all.sh
+# script
+
+# What directory on the remote server to back up
+BACKUP_DIR=/tmp
+
+# what patterns of paths to exclude on the remote server
+EXCLUDES="/sys /mnt /proc"
+
+# name or IP of server
+SERVER_NAME=127.0.0.1
